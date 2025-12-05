@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad Física</title>
+
+    <style>
+        body {
+            background-color: #e3f2fd;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1976d2;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #0d47a1;
+        }
+
+        form {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            width: 300px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            background-color: #1976d2;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0d47a1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bienvenido a la Página de Actividad Física</h1>
+    </header>
+
+    <section>
+        <h2>¿Por qué hacer actividad física?</h2>
+        <p>La actividad física ayuda a mejorar la salud, aumentar la energía y reducir el estrés. 
+           Realizar ejercicio regularmente te permitirá llevar una vida más activa y saludable.</p>
+    </section>
+
+    <section>
+        <h2>Formulario de Registro</h2>
+
+        <!-- FORMULARIO QUE SE ENVÍA POR CORREO -->
+        <form action="alejandra.martinez.alejandra_23080427@cetis054.edu.mx" method="POST" enctype="text/plain">
+            
+            <label>Nombre:</label>
+            <input type="text" name="Nombre" placeholder="Ingresa tu nombre">
+
+            <label>Edad:</label>
+            <input type="number" name="Edad" placeholder="Ingresa tu edad">
+
+            <label>Tipo de ejercicio favorito:</label>
+            <select name="Ejercicio favorito">
+                <option>Correr</option>
+                <option>Natación</option>
+                <option>Gimnasio</option>
+                <option>Ciclismo</option>
+                <option>Otro</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+<p><a href=index.html target=contenido_>
+ Regresar
+ </a>
+</body>
+</html>
